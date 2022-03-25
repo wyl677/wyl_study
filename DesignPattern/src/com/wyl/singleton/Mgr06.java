@@ -3,9 +3,12 @@ package com.wyl.singleton;
 /**
  * Author:yanl.wang
  * Date:2022/3/25 23:00
+ *
+ * 为啥要加volatile thread1半初始化 (0 new #2 <T> )m=0
+ * 时发生了指令重排序 (7 astore_1和 4 invokespecial #3 <T.<init>>) thread2 if(t != null) xxx -> 使用了半初始化状态的对象。
  */
 public class Mgr06 {
-    private static Mgr06 INSTANCE;
+    private static volatile Mgr06 INSTANCE;
 
     private Mgr06() {
     }
