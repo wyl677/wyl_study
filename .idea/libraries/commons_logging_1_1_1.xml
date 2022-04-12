@@ -8,6 +8,11 @@
       <root url="jar://$PROJECT_DIR$/spring5/spring5_demo01/lib/spring-expression-5.3.9.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-beans-5.3.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-core-5.3.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-context-5.3.9-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/commons-logging-1.1.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
